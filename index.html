@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D_Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <div id="game-container">
+    <canvas id="gameCanvas"></canvas>
+
+    <div id="popup" class="popup">
+      <div class="popup-content">
+          <span class="close-btn">&times;</span>
+          <h2 id="popup-title"></h2>
+          <p id="popup-message"></p>
+          <div id="popup-content"></div>
+          <button id="popup-confirm-btn">OK</button>
+      </div>
+    </div>
+  
+
+    <div id="level-info">
+      <h2>About myself</h2>
+      <p>Hello! I’m Sonam, currently pursuing my master’s degree in Informatics (IIC) from South Campus, Delhi University.<br>I have a strong foundation in Instrumentation from my undergraduate studies at Shaheed Rajguru College.</p>
+    </div>
+
+    <div id="contact-icon">
+      <img src="contact.png" alt="Contact" />
+  </div>
+
+  <!-- Introduction Popup -->
+<div id="intro-popup" class="popup">
+  <div class="popup-content">
+      <span class="close">&times;</span>
+      <h1>Hello, i am Sonam</h1>
+      <h2>Welcome to my Portfolio!</h2>
+      <p>This game showcases my skills and projects. Navigate through the levels to explore more!</p>
+      <h2>Game Instructions</h2>
+      <p> <h4>Goal:-</h4> Reach the finish line at each level to unlock sections of the portfolio.<br><h4>Controls:-</h4><br><h5>Forward:-</h5> Press the up arrow to move forward.<br><h5>Left/Right:-</h5> Use the left and right arrows to steer.<br><h4>Avoid Obstacles:-</h4> Hitting obstacles will restart the level.<br><h4>Level Complete:-</h4> Upon reaching the finish line, press the up arrow to start the next level.</p>
+      <button id="start-button">click hare to Start</button>
+  </div>
+</div>
+
+  
+    <button id="startGame">Start Game</button>
+  </div>
+  <script type="module" src="main.js"></script>
+</body>
+</html>
